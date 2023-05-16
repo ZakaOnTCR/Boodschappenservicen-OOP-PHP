@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+}
+
+/*submenu */
+.navbar {
+    overflow: hidden;
+    background-color: #345a56;
+    margin: 0 0 0 300px;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: #54726f;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #4e817c;
+    width: 100%;
+    z-index: 1;
+    margin: 0 0 0 300px;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+nav {
+    background-color: #345a56;
+    width: 300px;
+    height: 1270px;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.top-section {
+    width: 300px;
+    height: 50px;
+    background-color: #345a56;
+    position: absolute;
+}
+
+.logo {
+    width: 50%;
+}
+
+li {
+    list-style-type: none;
+    padding: 14px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #345a56;
+    float: right;
+}
+
+.fa {
+    float: right;
+    color: wheat;
+    position: relative;
+    margin-right: 20px;
+    top: 7px;
+}
+
+.contiaer {
+    display: flex;
+}
+
+.achtergrond {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url('img/home-page-background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.welkome {
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 359px;
+}
+
+span {
+    color: #345a56;
+}
+
+.inloggen-btn {
+    background-color: #345a56;
+    border: none;
+    padding: 16px 20px;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.form {
+    width: 340px;
+    height: 660px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(630px - 743px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 205px;
+    left: 738px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2
+}
+
+.btn-submit {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.btn-submit:hover {
+    background: #78788c;
+    color: #fff
+}
+
+.contact-form {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url("img/auto-2.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.container {
+    position: absolute;
+    top: 154px;
+    left: 351px;
+    width: 70%;
+}
+
+.welkom {
+    color: #e6e6e6;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: -18px;
+    left: 106px;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-uit {
+    background-color: #5caea7;
+    border-radius: 15px;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 31px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    top: 2px;
+    position: absolute;
+    left: 1191px;
+    border: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+
+.fa.fa-plus {
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    top: -1px;
+    margin-right: 0px;
+}
+
+.fa.fa-search {
+    top: -1px;
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+.fa.fa-trash {
+    top: -1px;
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+.fa.fa-pencil {
+    top: -1px;
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+.fa.fa-home {
+    top: -1px;
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+.fa.fa-book {
+    top: -1px;
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+.uitgevoerd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1361px;
+    position: absolute;
+    top: 186px;
+    color: #345a56;
+}
+
+.terug {
+    color: #345a56;
+    top: 78px;
+    position: absolute;
+    left: 574px;
+    left: 552px;
+}
+
+/* table des*/
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body {
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: arial;
+    color: #fff;
+}
+
+.made-with-love i {
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.made-with-love a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.made-with-love a:hover {
+    text-decoration: underline;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.addgebruiker {
+    font-size: 36px;
+    float: left;
+    position: absolute;
+    top: 50px;
+    padding: 40px;
+    display: flex;
+}
+
+/*.rechterkant{
+    background-color: #0b1f8f;
+    width: 50%;
+    height: 50px;
+}
+.linkerrkant{
+    width: 22%;
+    width: 50%;
+    background-color: black;
+}
